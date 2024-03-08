@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Secret
+metadata:
+    name: gatus-secrets
+    namespace: gatus
+data:
+    POSTGRES_DATABASE: |
+        MmY0YTgxN2FmOTA4NGIwYjZkM2E1YzIzZjZmMzM0ZTgK
+    POSTGRES_PASSWORD: |
+        ODkwNzYwMGM3ZDZlNjdiNTQ2MThmNTEzZDcxYzdlMGEK
+    POSTGRES_USERNAME: |
+        YWY1YWIzMmJhNTJiMDNiODNmNGZiMGM3OTU3Nzg1MTIK
